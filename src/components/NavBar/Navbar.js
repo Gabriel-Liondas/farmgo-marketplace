@@ -10,7 +10,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home"><img id='logoImg' src={Logo}/></Navbar.Brand>
+        <Navbar.Brand href="https://farmgo.app"><img id='logoImg' src={Logo}/></Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" id="navBarLinks">
             <Nav.Link className='navBarLink' href="https://farmgo.app">Home</Nav.Link>
