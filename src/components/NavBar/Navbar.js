@@ -13,13 +13,13 @@ function NavBar() {
         <Navbar.Brand href="#home"><img id='logoImg' src={Logo}/></Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" id="navBarLinks">
-            <Nav.Link className='navBarLink' href="#home">Home</Nav.Link>
-            <Nav.Link className='navBarLink' href="#recursos">Recursos</Nav.Link>
-            <Nav.Link className='navBarLink' href="#sobre">Sobre</Nav.Link>
-            <Nav.Link className='navBarLink' href="#time">Time</Nav.Link>
-            <Nav.Link className='navBarLink' href="#contato">Contato</Nav.Link>
-            <Nav.Link className='navBarLink' href="#mapa">Mapa</Nav.Link>
-            <Nav.Link className='navBarLink' href="#nossosParceiros">Nossos Parceiros</Nav.Link>
+            <Nav.Link className='navBarLink' href="https://farmgo.app">Home</Nav.Link>
+            <Nav.Link className='navBarLink' href="https://farmgo.app/#features">Recursos</Nav.Link>
+            <Nav.Link className='navBarLink' href="https://farmgo.app/#features">Sobre</Nav.Link>
+            <Nav.Link className='navBarLink' href="https://farmgo.app/#features">Time</Nav.Link>
+            <Nav.Link className='navBarLink' href="https://farmgo.app/#features">Contato</Nav.Link>
+            <Nav.Link className='navBarLink' href="https://farmgo.app/map.html">Mapa</Nav.Link>
+            <Nav.Link className='navBarLink' href="https://portfolio.farmgo.app">Nossos Parceiros</Nav.Link>
           </Nav>
           <Button id="navBarBtn" href="#link">Acessar</Button>
         </Navbar.Collapse>
