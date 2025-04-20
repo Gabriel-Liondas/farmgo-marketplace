@@ -1,11 +1,8 @@
-import MarketCard from '../../components/MarketCard/MarketCard';
 import './Shop.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import { Navbar } from 'react-bootstrap';
 import { useState } from 'react';
 import MockProducts from './MockProducts';
-
 
 function Shop() {
 
@@ -14,7 +11,6 @@ function Shop() {
 
   const produtos = MockProducts();
 
-  
   // 🔍 Filtra os produtos pela categoria selecionada
   const filtrarProdutos = () => {
     return produtos.filter((produto) => {
@@ -23,7 +19,6 @@ function Shop() {
       return categoriaMatch && estadoMatch;
     });
   };
-
 
   return (
     <div id="ShopPage">

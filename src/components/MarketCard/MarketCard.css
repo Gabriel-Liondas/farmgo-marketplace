@@ -1,6 +1,12 @@
 #MarketCard {
   border-radius: 10px !important;
   height: 420px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#MarketCard:hover {
+  transform: scale(1.02);
 }
 
 #marketCardBody {
@@ -61,6 +67,27 @@
 #marketPlaceBtn:hover {
   color:  #ffffff !important;
   background-color: #4B790E !important;
+}
+
+#closeBtn {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+}
+
+#verMaisBtn {
+  background-color: #4B790E;
+  border-color: #4B790E;
+}
+
+/* Add hover effects */
+#closeBtn:hover {
+  background-color: #fa5252;
+  border-color: #fa5252;
+}
+
+#verMaisBtn:hover {
+  background-color: #79a83c;
+  border-color: #79a83c;
 }
 
 /* style={{
